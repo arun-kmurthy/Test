@@ -7,7 +7,7 @@ import pages.LoginPage;
 import wdMethods.ProjectMethods;
 
 public class TC002_LoginForFailure extends ProjectMethods{
-	
+	//before test
 	@BeforeTest
 	public void setData() {
 		testCaseName="TC002_LoginforNegative";
